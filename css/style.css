@@ -1,0 +1,242 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto_Condensed-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto_Condensed-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto_Condensed-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  transition: opacity 1s ease;
+}
+.logo:hover {
+opacity: 0.8;
+
+}
+.logo:active {
+  opacity: 0.6;
+}
+.sayt-header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sayt-header-nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 32px;
+}
+
+.saytnav-link {
+  font-family: var (--font-family);
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  transition: color 1s ease,
+  opacity 1s ease;
+}
+.saytnav-link:hover {
+ color: #ff7500 
+}
+.saytnav-link:active {
+  opacity: 0.6;
+  color: #ff7500;
+}
+
+.main-link {
+  background-color: #ff7500;
+  color: #fff;
+  text-decoration: none;
+  transition: color 1s ease,
+  opacity 1s ease;
+}
+.main-link:hover {
+  color: #ffff;
+  opacity: 0.8;
+}
+.main-link:active {
+  color: #ffff;
+  opacity: 0.6;
+}
+.hero-section {
+  background-color: #252420;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  width: 390px;
+  color: #fff;
+}
+
+.line {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+}
+
+.hero-title {
+  font-family: "Roboto Condensed";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+
+}
+
+.hero-text2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+
+}
+
+.hero-section-pythonbook {
+  justify-content: end;
+}
+
+.feature-title {
+  font-family: "Roboto Condensed";
+  color: #000;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 86.4px;
+  letter-spacing: 0.5px;
+  text-align: left;
+
+}
+
+.feature-list {
+  width: 340px;
+  color: #000;
+}
+
+.feature-item-title {
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0.5px;
+}
+
+.feature-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+
+}
+
+.sale-content {
+  width: 1100px;
+}
+
+.sale-title {
+  font-family: "Roboto Condensed";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+
+}
+
+.sale {
+  background-color: #252420;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orange-color {
+  color: #ff7500;
+  font-weight: 700p;
+}
+
+.sale-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+
+}
+
+.footer {
+  background-color: #f8f8f8;
+}
+
+.footer-dvider {
+  height: 2px;
+  background-color: #25242080;
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #252420;
+  text-decoration: none;
+  transition: color 1s ease,
+  opacity 1s ease;
+}
+.footer-link:hover {
+  color: #ff7500;
+}
+.footer-link:active {
+  opacity: 0.6;
+  color: #ff7500;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.footer-sochels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-line {
+  height: 2px;
+}
+.footerlist-dad {
+  display: flex;
+  gap: 68px;
+}
+
+.footer-list {
+  list-style: none;
+ 
+
+}
