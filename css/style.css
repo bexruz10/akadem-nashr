@@ -23,6 +23,12 @@
   font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+.conteiner {
+  max-width: 1140px;
+  margin: 0px auto;
+  padding: 0px 20px;
 }
 .logo {
   transition: opacity 1s ease; 
@@ -37,14 +43,17 @@ opacity: 0.8;
 }
 .sayt-header {
   background-color: #fff;
-  display: flex;
-  justify-content: space-between;
 border-top: 5px solid #ff7500;
 padding: 16px 0px;
 }
 
 .sayt-header-nav {
   display: flex;
+  align-items: center;
+}
+.header-conteiner {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -97,9 +106,6 @@ border-radius: 4px;
 }
 .hero-section {
   background-color: #252420;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 210px;
 }
 .hero-hero-text2 {
@@ -108,6 +114,11 @@ border-radius: 4px;
 .hero-text {
   width: 390px;
   color: #fff;
+}
+.hero-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .line {
@@ -208,6 +219,7 @@ margin-bottom: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 10px;
 }
 
 .orange-color {
@@ -277,7 +289,6 @@ margin-bottom: 24px;
 }
 .footerlist-dad {
   display: flex; 
-
 }
 
 .footer-list {
@@ -287,4 +298,7 @@ margin-right: 68px;
 }
 .footer-li {
   margin-bottom: 16px;
+}
+.icons-margine {
+  margin-right: 16px;
 }
