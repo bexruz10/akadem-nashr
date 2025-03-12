@@ -150,6 +150,10 @@ margin-bottom: 24px;
 .hero-section-pythonbook {
   justify-content: end;
 }
+.python-book-shadow {
+  box-shadow: 24px 24px 0 0 #ff750099;
+  border-radius: 10px;
+}
 .feature-section {
   padding: 210px 0px;
 }
