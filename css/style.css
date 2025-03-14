@@ -92,7 +92,7 @@ padding: 16px 0px;
   text-decoration: none;
   transition: color 1s ease,
   opacity 1s ease;
-  padding: 12px 0px;
+  padding: 12px 24px;
   display: inline-block;
 border-radius: 4px;
 }
@@ -208,9 +208,11 @@ margin-bottom: 72px;
 
 .sale-content {
   width: 1100px;
-  padding: 64px 0px;
+  padding: 64px 64px;
 }
-
+.padding-for-imgsale {
+  padding-right: 64px;
+}
 .sale-title {
   font-family: "Roboto Condensed";
   font-size: 40px;
@@ -293,6 +295,7 @@ margin-bottom: 24px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
+  padding-top: 56px;
 }
 
 .footer-line {
